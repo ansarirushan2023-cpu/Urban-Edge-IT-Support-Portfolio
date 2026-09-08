@@ -20,7 +20,7 @@ The project focuses on practical operational areas rather than advanced infrastr
 - management reporting
 - prioritised IT improvement planning
 
-![Project Overview](screenshots/01_project_overview.png)
+![Project Overview](01_project_overview.png)
 
 ## What is included
 
@@ -43,7 +43,7 @@ The Excel dashboard converts the detailed registers into management information 
 
 All figures shown below are generated from mock data and are included to demonstrate the reporting approach.
 
-![IT Dashboard](screenshots/02_it_dashboard.png)
+![IT Dashboard](02_it_dashboard.png)
 
 ## Improvement approach
 
@@ -56,16 +56,16 @@ The first-month approach used in the prototype is:
 3. **Deliver quick wins** based on evidence.
 4. **Report and recommend** practical next steps to management.
 
-![Improvement Plan](screenshots/03_improvement_plan.png)
+![Improvement Plan](03_improvement_plan.png)
 
 ## Repository files
 
 - [`Urban_Edge_IT_Support_Portfolio.xlsx`](Urban_Edge_IT_Support_Portfolio.xlsx) — complete Excel project.
-- [`data/helpdesk_tickets_mock.csv`](data/helpdesk_tickets_mock.csv) — GitHub-previewable mock helpdesk dataset.
-- [`data/asset_register_mock.csv`](data/asset_register_mock.csv) — mock asset register.
-- [`data/user_access_register_mock.csv`](data/user_access_register_mock.csv) — mock user-access register.
-- [`data/security_health_check_mock.csv`](data/security_health_check_mock.csv) — mock security control register.
-- [`data/improvement_plan_mock.csv`](data/improvement_plan_mock.csv) — prioritised improvement actions.
+- [`data/helpdesk_tickets_mock.csv`](helpdesk_tickets_mock.csv) — GitHub-previewable mock helpdesk dataset.
+- [`data/asset_register_mock.csv`](asset_register_mock.csv) — mock asset register.
+- [`data/user_access_register_mock.csv`](user_access_register_mock.csv) — mock user-access register.
+- [`data/security_health_check_mock.csv`](security_health_check_mock.csv) — mock security control register.
+- [`data/improvement_plan_mock.csv`](improvement_plan_mock.csv) — prioritised improvement actions.
 
 ## Suggested 5-minute review
 
