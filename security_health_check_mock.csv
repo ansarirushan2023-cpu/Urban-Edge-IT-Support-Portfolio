@@ -1,0 +1,16 @@
+﻿Control_ID,Security_Area,Control,Current_State,Risk_Rating,Risk_Score,Target_State,Recommendation,Owner,Target_Date,Status,Evidence_or_Metric
+SEC-001,Identity,MFA coverage,92% of users enabled,Medium,2,100% coverage,Enable MFA for every interactive user and privileged account,UE030,46283,In Progress,Employee master demo coverage
+SEC-002,Endpoint,Device encryption,3 laptops not encrypted,High,3,100% company laptops encrypted,Enable BitLocker and escrow recovery keys,UE030,46277,Open,Asset register demo exceptions
+SEC-003,Endpoint,Endpoint protection,2 devices require attention,High,3,All active devices healthy,Investigate Defender alerts and confirm remediation,UE030,46275,Open,Asset register Defender status
+SEC-004,Endpoint,Patch compliance,4 laptops overdue,Medium,2,>=95% current within policy,Create patching cadence and exception follow-up,UE029,46284,Open,Asset register patch status
+SEC-005,Identity,Privileged access,Admin access exists for IT accounts,Medium,2,Named admin accounts with MFA and review,Separate privileged/admin use and review quarterly,UE003,46296,Planned,Access register
+SEC-006,Access,Access reviews,Several reviews overdue,High,3,No overdue high-risk access,Run monthly overdue review and quarterly full review,UE029,46280,Open,Access register
+SEC-007,Access,Least privilege,3 demo exceptions marked Review,High,3,All access justified and current,Validate exceptions with managers and remove unnecessary rights,UE029,46281,Open,Access register
+SEC-008,Email,Phishing awareness,Training not centrally tracked,Medium,2,Annual training + reporting process,Record completion and publish phishing reporting guide,UE003,46310,Planned,Knowledge base
+SEC-009,Backup,Backup monitoring,Backup exists; restore test not documented,High,3,Scheduled backups + quarterly restore test,"Document backup owner, retention and restore testing",UE030,46295,Open,Demo control review
+SEC-010,Accounts,Leaver process,Checklist exists but no automated trigger,Medium,2,Same-day disable on approved leaver notice,Use controlled offboarding checklist and audit completion,UE029,46296,Planned,Lifecycle checklist
+SEC-011,Data,External sharing,SharePoint sharing rules not reviewed,Medium,2,External sharing limited and reviewed,Review external links and apply expiry where possible,UE030,46302,Planned,Demo control review
+SEC-012,Assets,Asset inventory,Central register established,Low,1,>=98% asset ownership accuracy,Quarterly physical/owner reconciliation,UE029,46357,In Progress,Asset register
+SEC-013,Software,Licence management,Licence allocation recorded at user level,Low,1,Unused licences reclaimed promptly,Include licence removal in offboarding,UE029,46296,In Progress,Employee / lifecycle data
+SEC-014,Incident Response,Security incident process,Basic escalation only,Medium,2,Documented severity and escalation procedure,Create one-page incident response flow,UE030,46315,Planned,KB-019 / KB-020
+SEC-015,Mobile,Lost-device response,Process documented in KB only,Medium,2,MDM-supported lock/wipe process tested,Confirm mobile device management capability and test response,UE030,46327,Planned,KB-021
